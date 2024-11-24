@@ -2,9 +2,9 @@ import http from 'k6/http';
 import { sleep, check } from 'k6';
 import uuid from './libs./uuid.js';
 
-export const options = {
-  //vus: 1,
-  //duration: '30s',
+export const options = { // criando um objeto onde quando execurtamos o comando run vai rodar com usuario e duração parametrizados 
+  vus: 10,
+  duration: '30s',
 };
 export default function () {
 

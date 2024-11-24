@@ -1,8 +1,8 @@
 import http from 'k6/http';
 import { sleep, check} from 'k6'; //Importação de funções
 export const options = {
-  //vus: 1,
-  //duration: '30s',
+  vus: 10,
+  duration: '10s',
 };
 export default function () {
   const res = http.get('http://localhost:3333'); //Atribuindo a requisição get a constante res
