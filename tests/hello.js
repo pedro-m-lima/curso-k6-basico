@@ -1,5 +1,13 @@
 import http from 'k6/http';
 import { sleep, check} from 'k6'; //Importação de funções
+import { htmlReport } from "https://raw.githubusercontent.com/benc-uk/k6-reporter/main/dist/bundle.js";
+
+export function handleSummary(data) {
+  return {
+    "summary2.html": htmlReport(data),
+  };
+}
+
 export const options = {
   vus: 10,
   duration: '10s',

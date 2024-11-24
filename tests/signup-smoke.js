@@ -1,6 +1,13 @@
 import http from 'k6/http';
 import { sleep, check } from 'k6';
 import uuid from './libs./uuid.js';
+import { htmlReport } from "https://raw.githubusercontent.com/benc-uk/k6-reporter/main/dist/bundle.js";
+
+export function handleSummary(data) {
+  return {
+    "summary_signupSmoke.html": htmlReport(data),
+  };
+}
 
 //Neste teste de fumação utilizamos 1 usuário e duração de 1minutos para rodas os testes, isto faz com que consigamos validar que o ambiente esta funcionando corretamente, sem forçar uma grande bateria de testes e sem iniciar uma mini carga
 
