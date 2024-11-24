@@ -5,6 +5,10 @@ import uuid from './libs./uuid.js';
 export const options = { // criando um objeto onde quando execurtamos o comando run vai rodar com usuario e duração parametrizados 
   vus: 10,
   duration: '30s',
+  thresholds: { //Configurando limites na execução
+    http_req_duration: ['p(95)<2000'], //com este codigo nos definimos um limite onde 95% das requisições deve ser até que 2 segundos
+    http_req_failed: ['rate<0.01'] // permite com que 1% das requisições possa ocorrer erro (isso deve ser definido com o times)
+  }
 };
 export default function () {
 
