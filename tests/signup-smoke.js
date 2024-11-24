@@ -9,7 +9,7 @@ export function handleSummary(data) {
   };
 }
 
-//Neste teste de fumação utilizamos 1 usuário e duração de 1minutos para rodas os testes, isto faz com que consigamos validar que o ambiente esta funcionando corretamente, sem forçar uma grande bateria de testes e sem iniciar uma mini carga
+//Neste teste de fumaça utilizamos 1 usuário e duração de 1minutos para rodas os testes, isto faz com que consigamos validar que o ambiente esta funcionando corretamente, sem forçar uma grande bateria de testes e sem iniciar uma mini carga
 
 export const options = { 
   vus: 1, //Alterado o usuário para 1

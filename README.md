@@ -2,7 +2,7 @@
 
 ## 👨🏻‍💻 Como executar o projeto
 
-- Para mais detalhes de configuração e execução dos testes, deixo aqui o link do [repositório original](https://github.com/weareqacademy/curso-k6-basico)  e também o link do [curso gratuito](https://www.youtube.com/watch?v=6n69I_l3FEM&list=PLn2i8I7W73irNVpzHDU2oKWCKLa2VPWEx&pp=iAQB) disponibilizado no youtube
+- Para mais detalhes de configuração e execução dos testes, deixo aqui o link do [repositório original](https://github.com/weareqacademy/curso-k6-basico) do professor Papito  e também o link do [curso gratuito](https://www.youtube.com/watch?v=6n69I_l3FEM&list=PLn2i8I7W73irNVpzHDU2oKWCKLa2VPWEx&pp=iAQB) disponibilizado no youtube
 ----
 
 # 📚 Resumo sobre o aprendizado:  [![GitHub](https://img.shields.io/badge/GitHub-pedro--m--lima-blue?style=for-the-badge&logo=github)](https://github.com/pedro-m-lima)
